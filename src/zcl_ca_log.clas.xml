@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_LOG</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common object: Application log (BAL)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>OBJTYPE or OBJKEY</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>Log(s) for object</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>with key</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add single message using message variables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_BAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add message from structure BAL_S_MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_BAL_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add messages from tabletype ACO_TT_BAL_MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_BAPIRET2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add message from structure BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_BAPIRET2_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add messages from tabletype BAPIRET2_T</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_EXC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add message from exception class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG_SYST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add message from structure SYST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>ADD_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add reference object and key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>CLOSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Close log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>C_FM_NAME_CB_READ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name function module: Call back for read of source position</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>C_FM_NAME_CB_SET_SRCPOS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name function module: Call back to pass source positions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>C_FM_NAME_CB_UCOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name function module: Call back to handle user commands</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>DELETE_FROM_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Release buffered instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>DISPLAY_FOR_LOGNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display one or more saved application logs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>DISPLAY_FOR_REFOBJ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display all logs for reference object and key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>FREE_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Release buffered instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_EXT_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get current external number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_INSTANCE_FROM_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get instance from buffer (use only if multiple inst. needed)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_LOG_LIST_FOR_REFOBJ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get list of logs for ref object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_MSG_COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get number of all BAL messages depending on message type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_MSG_LIST_BAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get all messages from BAL (table type ACO_TT_BAL_MSG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_MSG_LIST_BAPIRET2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get messages from BAL and convert into BAPIRET2 format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>GET_PROFILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get prepared display profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_ADD_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add message to log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_GET_LOGNR_FROM_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get lognr from loghandle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_GET_PROFILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get display profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_LOAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_LOAD_POS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load exception positions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_MSG_READ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read log message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_REFRESH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Refresh memory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_SAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_SAVE_LOGREF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save ref objects with lognr</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_SAVE_SRCPOS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save error positions with lognr</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>INTERN_SEARCH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>IS_OPEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check log is opened?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MS_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log header data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MT_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MT_OBJREF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common object: Application log - Business object reference</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MT_SRCPOS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common object: Application log - Source code position</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MV_DEF_MSGID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Default message class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MV_DEF_PROBCLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Default message problem class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>MV_LOGHNDL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save all messages (optional with CLOSE)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>SET_EXT_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set new external number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>SET_SOURCE_POSITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set source code position to message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>TY_S_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Buffered instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>TY_T_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_LOG</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write all messages (use of WRITE command)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

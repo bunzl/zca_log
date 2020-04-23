@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common object: Constants for application log</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_CATID_BO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object category: Business object (SWO1/old)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_CATID_CL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object category: Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_MODE_BATCH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Operating mode: Batch processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_MODE_BATCH_INPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Operating mode: Batch input processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_MODE_DIALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Operating mode: Dialog processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_OBJECT_ZCA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Object ZCA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_PROBCLASS_DEF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Problem class: Default</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_PROBCLASS_IMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Problem class: Important</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_PROBCLASS_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Problem class: Information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_PROBCLASS_UNDEF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Problem class: Undefined</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_CA_C_LOG</CLSNAME>
+     <CMPNAME>C_PROBCLASS_VIMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Problem class: Very important</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
