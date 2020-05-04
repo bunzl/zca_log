@@ -2,6 +2,8 @@
 INTERFACE zif_ca_c_log_techn PUBLIC.
 *   c o n s t a n t s
   CONSTANTS:
+    "! <p class="shorttext synchronized" lang="en">Application Log: Object ZCA</p>
+    c_object_zca           TYPE balobj_d          VALUE 'ZCA' ##no_text,
     "! <p class="shorttext synchronized" lang="en">Field name: Structure with exception position</p>
     c_fname_s_excep_srcpos TYPE fieldname         VALUE 'ZCA_S_EXCEP_SRCPOS'  ##no_text,
     "! <p class="shorttext synchronized" lang="en">Field name: Column for class or program name</p>
